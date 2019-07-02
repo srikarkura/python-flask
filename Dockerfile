@@ -8,7 +8,8 @@ RUN pip install -r requirements.txt
 
 COPY ./hello.py /python-app/hello.py
 
-EXPOSE 80
+EXPOSE 8080
 
 ENTRYPOINT ["python2", "hello.py"]
+
 
